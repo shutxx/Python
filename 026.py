@@ -1,0 +1,8 @@
+frase = input('Digite seu nome completo: ')
+print(frase.upper())
+print('-' * 12)
+print(frase.lower())
+print('-' * 12)
+print(frase.replace(" ", ""))
+print('-' * 12)
+print(frase.split().count())

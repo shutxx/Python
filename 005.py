@@ -1,0 +1,9 @@
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+n3 = int(input('Digite outro número: '))
+r1 = (n1 + n2) * n3
+r2 = n1 * n1
+r3 = n1 / n2
+print('A soma entre {} e {} multiplicado {} é = {}'.format(n1, n2, n3, r1))
+print('A multiplicação de {} e {} é = {}'.format(n1, n2, r2))
+print('A divisão inteira entre {} e {} é = {}'.format(n1, n2, r3))
